@@ -127,11 +127,26 @@
       <div class="wrapper">
         <div id="menubar">
           <ul id="menulist">
-            <li class="menuitem menuitem_on">Stylesheet 1</li>
-            <li class="menuitem menuitem_off">Stylesheet 2</li>
+            <li
+              class="menuitem menuitem_on"
+              onclick="location.href='./style1.html'"
+            >
+              Stylesheet 1
+            </li>
+            <li
+              class="menuitem menuitem_off"
+              onclick="location.href='./style2.html'"
+            >
+              Stylesheet 2
+            </li>
             <li class="menuitem menuitem_off">Stylesheet 3</li>
             <li class="menuitem menuitem_off">Stylesheet 4</li>
-            <li class="menuitem menuitem_off">No Stylesheet</li>
+            <li
+              class="menuitem menuitem_off"
+              onclick="location.href='./index.html'"
+            >
+              No Stylesheet
+            </li>
           </ul>
         </div>
         <div id="main">
@@ -141,17 +156,15 @@
             layout of your HTML page. You can change the layout of this page by
             selecting different stylesheets in the menu, or by selecting one of
             the following links:<br />
-            <a href="http://127.0.0.1:5500/style1.html#">Stylesheet1</a>,
-            <a href="http://127.0.0.1:5500/style2.html#">Stylesheet2</a>,
+            <a href="./style1.html">Stylesheet1</a>,
+            <a href="./style2.html">Stylesheet2</a>,
             <a href="#">Stylesheet3</a>, <a href="#">Stylesheet4</a>.
           </p>
           <h2>No Styles</h2>
           <p>
             This page uses DIV elements to group different sections of the HTML
             page. Click here to see how the page looks like with no
-            stylesheet:<br /><a href="http://127.0.0.1:5500/index.html#"
-              >No Stylesheet</a
-            >.
+            stylesheet:<br /><a href="./index.html">No Stylesheet</a>.
           </p>
         </div>
         <div id="sidebar">
